@@ -147,6 +147,15 @@ tr:hover td {
     object-fit: cover;
     border: 3px solid var(--secondary-color);
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: var(--transition);
+    cursor: zoom-in;
+}
+
+.member-img:hover {
+    transform: scale(2.5);
+    z-index: 10;
+    position: relative;
+    border-radius: 10px;
 }
 
 /* About Section */
@@ -193,7 +202,7 @@ tr:hover td {
 }
 
 .gallery-item img:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 /* Advert Page */
