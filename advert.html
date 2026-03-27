@@ -18,38 +18,89 @@
         <a href="advert.html">Advertisement</a>
     </nav>
 
-    <header class="hero" style="padding: 2rem; border-radius: 0;">
-        <img src="images/eksu-logo.png" alt="EKSU Logo" style="height: 60px; margin-bottom: 1rem;">
-        <img src="images/esc-logo.png" alt="ESC Logo" style="height: 60px; margin-bottom: 1rem;">
-        <h1>Official Advertisements</h1>
+    <header class="hero">
+        <div class="hero-logos">
+            <img src="images/eksu-logo.png" alt="EKSU Logo">
+            <img src="images/esc-logo.png" alt="ESC Logo">
+        </div>
+        <h1>Our Advertisement Hub</h1>
+        <p>Explore official opportunities and student-led services at the Entrepreneurship Centre.</p>
     </header>
 
     <main class="container">
-        <div class="advert-section">
-            <div class="advert-card">
-                <div style="font-size: 2rem;">💻</div>
-                <div>
-                    <h3>Tech Solutions</h3>
-                    <p>Buy Quality Laptops at Affordable Prices. Student discounts available!</p>
+        <section class="advert-grid">
+            <!-- Tech Advert -->
+            <div class="advert-card" style="border-left-color: #3b82f6;">
+                <div class="advert-icon">💻</div>
+                <div class="advert-content">
+                    <span class="badge">Tech</span>
+                    <h3>BrainBash Solutions</h3>
+                    <p>Get premium web development, UI/UX design, and AI-driven solutions for your business. Student-friendly rates!</p>
+                    <a href="#" class="btn-sm">Learn More</a>
                 </div>
             </div>
 
+            <!-- Education Advert -->
             <div class="advert-card" style="border-left-color: #10b981;">
-                <div style="font-size: 2rem;">🌐</div>
-                <div>
-                    <h3>Digital Skills</h3>
-                    <p>Learn Web Development Today. Master HTML, CSS, and JavaScript with expert tutors.</p>
+                <div class="advert-icon">📚</div>
+                <div class="advert-content">
+                    <span class="badge" style="background: #10b981;">Education</span>
+                    <h3>ESC Skills Workshop</h3>
+                    <p>Master the art of entrepreneurship. Join our weekly workshops on business planning and scaling.</p>
+                    <a href="#" class="btn-sm">Register Now</a>
                 </div>
             </div>
 
+            <!-- Community Advert -->
             <div class="advert-card" style="border-left-color: #f59e0b;">
-                <div style="font-size: 2rem;">🚀</div>
-                <div>
+                <div class="advert-icon">🤝</div>
+                <div class="advert-content">
+                    <span class="badge" style="background: #f59e0b;">Community</span>
                     <h3>GDG EKSU</h3>
-                    <p>Join the GDG EKSU Tech Community. Network, learn, and grow with fellow developers.</p>
+                    <p>The biggest tech community on campus. Connect with developers and tech enthusiasts today.</p>
+                    <a href="#" class="btn-sm">Join Us</a>
                 </div>
             </div>
-        </div>
+
+            <!-- Food/Catering Advert -->
+            <div class="advert-card" style="border-left-color: #ef4444;">
+                <div class="advert-icon">🍱</div>
+                <div class="advert-content">
+                    <span class="badge" style="background: #ef4444;">Catering</span>
+                    <h3>ESC Cafeteria</h3>
+                    <p>Delicious meals at student prices. Visit us today for the best local and continental dishes.</p>
+                    <a href="#" class="btn-sm">View Menu</a>
+                </div>
+            </div>
+
+            <!-- Fashion Advert -->
+            <div class="advert-card" style="border-left-color: #8b5cf6;">
+                <div class="advert-icon">👕</div>
+                <div class="advert-content">
+                    <span class="badge" style="background: #8b5cf6;">Fashion</span>
+                    <h3>EKSU Custom Merch</h3>
+                    <p>Get your customized EKSU hoodies, shirts, and caps. High-quality prints at the ESC Complex.</p>
+                    <a href="#" class="btn-sm">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- Services Advert -->
+            <div class="advert-card" style="border-left-color: #06b6d4;">
+                <div class="advert-icon">🛠️</div>
+                <div class="advert-content">
+                    <span class="badge" style="background: #06b6d4;">Services</span>
+                    <h3>Printing & Graphics</h3>
+                    <p>Professional printing and graphic design services located right inside the ESC Building.</p>
+                    <a href="#" class="btn-sm">Get Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Want to Advertise Here?</h2>
+            <p>Reach thousands of students by showcasing your service on our official platform.</p>
+            <a href="contact.html" class="btn">Contact ESC Admin</a>
+        </section>
     </main>
 
 </body>
